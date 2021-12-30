@@ -1,0 +1,268 @@
+*{
+	list-style: none;
+}
+.nvg{
+	width:auto;
+	height:50px;
+	background-color:rgba(54,159,247,1.00);
+	position:relative;
+	box-sizing: border-box;
+}
+.nvg .trd{
+	position:absolute;
+	left:60%;
+	margin-left:-92px;
+	line-height:50px;
+	text-decoration:none;
+	color:white;
+	font-size:46px;
+}
+.nvg .first{
+	
+	margin-left:124px;
+	line-height:50px;
+	color:white;
+	text-decoration:none;
+	font-size:30px;
+}
+.bigbox{
+	width:auto;
+	height:700px;
+	background-color:rgba(167,165,165,0.3);
+}
+.bigbox .leftbox{
+	border:solid black 1px;
+	width:300px;
+	height:680px;
+	box-sizing: border-box;
+	border-top:none;
+	background-color:white;
+	position:relative;
+}
+.bigbox .leftbox .myinfo{
+	widht:auto;
+	height:59px;
+	color:white;
+	line-height: 59px;
+	font-size:28px;
+	background-color:rgba(0,61,147,1.00);
+	text-align:center;
+}
+.bigbox .leftbox .contentbox{
+	height:616px;
+	width:auto;
+	margin-top:2px;
+	background-color:rgba(142,244,182,1.00);
+}
+.bigbox .leftbox .contentbox>div{
+	height:56px;
+	width:auto;
+	text-align:center;
+	line-height:56px;
+}
+.contentbox .drc{
+	position:absolute;
+	left:280px;
+	
+}
+.bigbox .leftbox .contentbox .rightbox{
+	height:680px;
+	width:1163.2px;
+	position:absolute;
+	left:300px;
+	top:0px;
+	
+}
+.bigbox .leftbox .contentbox .rightbox1 .name{
+	width:800px;
+	height:600px;
+	position:absolute;
+	left:50%;
+	margin-left:-400px;
+}
+.bigbox .leftbox .contentbox .rightbox1{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/宽窄巷子.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+}
+.bigbox .leftbox .contentbox .content1:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content1:hover .rightbox1{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox2{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/成都动物园.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+	
+}
+.bigbox .leftbox .contentbox .rightbox2 .age{
+	font-size:300px;
+	margin-top:300px;
+}
+.bigbox .leftbox .contentbox .content2:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content2:hover .rightbox2{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox3{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/欢喜坪.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+}
+.bigbox .leftbox .contentbox .rightbox3 .birth{
+	font-size:150px;
+	margin-top:300px;
+}
+.bigbox .leftbox .contentbox .content3:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content3:hover .rightbox3{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox4{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/渠县.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+}
+.bigbox .leftbox .contentbox .content4:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content4:hover .rightbox4{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox5{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/温江公园.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+	font-size:20px;
+}
+.bigbox .leftbox .contentbox .content5:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content5:hover .rightbox5{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox6{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/神龙山.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+} 
+.bigbox .leftbox .contentbox .content6:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content6:hover .rightbox6{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox7{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/西岭雪山.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+}
+.bigbox .leftbox .contentbox .content7:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content7:hover .rightbox7{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox8{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/青城山.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+}
+.bigbox .leftbox .contentbox .content8:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content8:hover .rightbox8{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox9{
+	height:680px;
+	width:1163.2px;
+	background-image:url("../images/周五.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+}
+.bigbox .leftbox .contentbox .content9:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content9:hover .rightbox9{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox10{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/罗浮山.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+}
+.bigbox .leftbox .contentbox .content10:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content10:hover .rightbox10{
+	display:block;
+}
+.bigbox .leftbox .contentbox .rightbox11{
+	height:680px;
+	width:1163.2px;
+	background-image: url("../images/松山湖.jpg");
+	position:absolute;
+	left:300px;
+	top:0px;
+	display:none;
+}
+.bigbox .leftbox .contentbox .content11:hover{
+	background-color:rgba(0,166,182,1.00);
+	color:white;
+}
+.bigbox .leftbox .contentbox .content11:hover .rightbox11{
+	display:block;
+}
